@@ -1,0 +1,38 @@
+{
+  "name": "react-webpack-starter",
+  "version": "1.0.0",
+  "description": "Simple React starter kit for",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install babel webpack webpack-dev-server -g",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sambua/react-webpack-starter.git"
+  },
+  "keywords": [
+    "React",
+    "Satrter",
+    "Kit"
+  ],
+  "author": "sambua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambua/react-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/sambua/react-webpack-starter#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "peerDependencies":{
+    "webpack": "^1.*"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}
