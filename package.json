@@ -26,9 +26,6 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
-  "peerDependencies":{
-    "webpack": "^1.*"
-  },
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",

@@ -9,14 +9,14 @@ module.exports = {
     port: 3030
   },
   module: {
-    loaders: {
+    loaders: [{
       test: /\.js$/,
       exclude: /node_modules/,
       loader: 'babel',
       query: {
         presets: ['es2015', 'react']
       }
-    }
+    }]
   }
 
 }
